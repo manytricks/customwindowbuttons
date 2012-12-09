@@ -58,7 +58,7 @@
 	- (void)customZoom: (id)sender {
 		NSScreen *theScreen = [self screen];
 		if (theScreen) {
-			[self setFrame: [theScreen visibleFrame] display: YES];
+			[self setFrame: [theScreen visibleFrame] display: YES animate: YES];
 		}
 	}
 
