@@ -5,25 +5,25 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>${EXECUTABLE_NAME}</string>
+	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.manytricks.CustomWindowButtons</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.4</string>
+	<string>0.5</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>406</string>
+	<string>407</string>
 	<key>LSMinimumSystemVersion</key>
-	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSMainNibFile</key>
 	<string>Main</string>
 	<key>NSPrincipalClass</key>
