@@ -7,29 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		256AC3DA0F4B6AC300CF3369 /* PMApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* PMApplicationDelegate.m */; };
-		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		256AC3DA0F4B6AC300CF3369 /* CustomWindowButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* CustomWindowButtons.m */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D046895B1662B8BD00AAAD26 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = D046895A1662B8BD00AAAD26 /* Main.xib */; };
-		D0BAADCF131636F9000149F8 /* PMCustomWindowButtonsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAADCE131636F9000149F8 /* PMCustomWindowButtonsWindow.m */; };
-		D0BAADEA1316399F000149F8 /* PMCustomWindowButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BAADE91316399F000149F8 /* PMCustomWindowButtons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
-		256AC3D80F4B6AC300CF3369 /* PMApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMApplicationDelegate.h; path = Classes/PMApplicationDelegate.h; sourceTree = "<group>"; };
-		256AC3D90F4B6AC300CF3369 /* PMApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMApplicationDelegate.m; path = Classes/PMApplicationDelegate.m; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* CustomWindowButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomWindowButtons.m; path = Classes/CustomWindowButtons.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.xml; fileEncoding = 4; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Custom Window Buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Window Buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D046895A1662B8BD00AAAD26 /* Main.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Main.xib; path = Resources/Main.xib; sourceTree = "<group>"; };
-		D0BAADCD131636F9000149F8 /* PMCustomWindowButtonsWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMCustomWindowButtonsWindow.h; path = Classes/PMCustomWindowButtonsWindow.h; sourceTree = "<group>"; };
-		D0BAADCE131636F9000149F8 /* PMCustomWindowButtonsWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMCustomWindowButtonsWindow.m; path = Classes/PMCustomWindowButtonsWindow.m; sourceTree = "<group>"; };
-		D0BAADE81316399F000149F8 /* PMCustomWindowButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PMCustomWindowButtons.h; path = Classes/PMCustomWindowButtons.h; sourceTree = "<group>"; };
-		D0BAADE91316399F000149F8 /* PMCustomWindowButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PMCustomWindowButtons.m; path = Classes/PMCustomWindowButtons.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,26 +64,12 @@
 		29B97314FDCFA39411CA2CEA /* Standard Window Button Test */ = {
 			isa = PBXGroup;
 			children = (
-				256AC3D80F4B6AC300CF3369 /* PMApplicationDelegate.h */,
-				256AC3D90F4B6AC300CF3369 /* PMApplicationDelegate.m */,
-				D0BAADE81316399F000149F8 /* PMCustomWindowButtons.h */,
-				D0BAADE91316399F000149F8 /* PMCustomWindowButtons.m */,
-				D0BAADCD131636F9000149F8 /* PMCustomWindowButtonsWindow.h */,
-				D0BAADCE131636F9000149F8 /* PMCustomWindowButtonsWindow.m */,
+				256AC3D90F4B6AC300CF3369 /* CustomWindowButtons.m */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
 			name = "Standard Window Button Test";
-			sourceTree = "<group>";
-		};
-		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				29B97316FDCFA39411CA2CEA /* main.m */,
-			);
-			name = "Other Sources";
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -177,10 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				256AC3DA0F4B6AC300CF3369 /* PMApplicationDelegate.m in Sources */,
-				D0BAADCF131636F9000149F8 /* PMCustomWindowButtonsWindow.m in Sources */,
-				D0BAADEA1316399F000149F8 /* PMCustomWindowButtons.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* CustomWindowButtons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,9 +178,10 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INFOPLIST_FILE = Resources/Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.manytricks.CustomWindowButtons;
 				PRODUCT_NAME = "Custom Window Buttons";
 			};
@@ -215,9 +190,10 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INFOPLIST_FILE = Resources/Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.manytricks.CustomWindowButtons;
 				PRODUCT_NAME = "Custom Window Buttons";
 			};
