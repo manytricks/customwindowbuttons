@@ -30,10 +30,6 @@
 
 		self.customZoomButton.accessibilitySubrole = NSAccessibilityZoomButtonSubrole;
 		self.window.accessibilityZoomButton = self.customZoomButton;
-
-		self.window.movableByWindowBackground = YES;
-		[self.window center];
-		[self.window makeKeyAndOrderFront: self];
 	}
 
 	- (BOOL)applicationShouldHandleReopen: (NSApplication *)application hasVisibleWindows: (BOOL)hasVisibleWindows {
