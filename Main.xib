@@ -59,35 +59,6 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Window" id="19">
-                    <menu key="submenu" title="Window" systemMenu="window" id="24">
-                        <items>
-                            <menuItem title="Close" keyEquivalent="w" id="73">
-                                <connections>
-                                    <action selector="performClick:" target="W4c-zl-MQq" id="RHM-Y7-2R7"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Minimize" keyEquivalent="m" id="23">
-                                <connections>
-                                    <action selector="performClick:" target="C0k-C2-khZ" id="lfg-JN-47U"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Zoom" id="239">
-                                <connections>
-                                    <action selector="performClick:" target="192-iM-aWR" id="PAb-iz-lOy"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem isSeparatorItem="YES" id="92">
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </menuItem>
-                            <menuItem title="Bring All to Front" id="5">
-                                <connections>
-                                    <action selector="arrangeInFront:" target="-1" id="39"/>
-                                </connections>
-                            </menuItem>
-                        </items>
-                    </menu>
-                </menuItem>
             </items>
             <point key="canvasLocation" x="-42" y="-237"/>
         </menu>
